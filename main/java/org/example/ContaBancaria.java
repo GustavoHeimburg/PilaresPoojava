@@ -34,8 +34,8 @@ public class ContaBancaria {
     public static void main(String[] args) {
         ContaBancaria conta = new ContaBancaria("12345", 2300);
 
-        conta.depositar(0);
-        conta.sacar(100);
+        conta.depositar(220);
+        conta.sacar(50);
         System.out.println("Saldo atual da conta é de: "+conta.getsaldo());
     }
 }
